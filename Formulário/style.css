@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F28749;
+}
+
+form {
+    background-color: white;
+    box-shadow: 2px 1px 14px -2px;
+    color: #6e391b;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    /* faz a centralização do fomulário de forma responsiva */
+    top: 50%;
+    /* faz a centralização do fomulário de forma responsiva */
+    transform: translate(-50%, -50%);
+    /* faz a centralização do fomulário de forma responsiva */
+
+}
+
+form h3 {
+    text-align: center;
+    color: #A62B1F;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input[type=text],
+form input[type=password] {
+    /*sempre se atentar ao espaço do ] para o { */
+    width: 100%;
+    height: 45px;
+    border: 1px solid #cccc;
+    padding-left: 10px;
+    margin: 10px 0px;
+
+}
+
+form input[type=submit] {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #A62B1F;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+}
+
+form input[type=submit]:hover {
+    background-color: #591914;
+    transition: 1s;
+}
